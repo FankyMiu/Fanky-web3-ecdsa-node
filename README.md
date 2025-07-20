@@ -1,16 +1,18 @@
-# ECDSA Web App 學習歷程 & 技術重點
+# ECDSA Wallet Demo (Node.js + React)
 
-## 📚 專案簡介
+## 專案簡介
+本專案實作以 ECDSA 私鑰產生、前端離線簽章及後端驗證、Nonce 防重放等關鍵資安機制，模擬以太坊核心錢包功能。
 
-本專案為以 Node.js & React 建構的端到端 ECDSA Wallet Dapp，包含私鑰產生、本地簽章（signature）、server驗證等，以模擬以太坊錢包在 web3 實務中完整的安全流程。  
-自學過程涵蓋從前端私鑰安全、地址生成、簽章與 nonce 資安防護，至 Server 驗證防重放攻擊等全鏈條設計。
+## 功能亮點
+- Ethereum address 格式錢包全自動生成
+- Client 端安全私鑰管理，Never uploaded to server
+- 支援資產查詢、簽章認證與防 replay 資安設計
+- Tech stack: Node.js, Express, React, secp256k1, Keccak256
 
-## 🏗️ 專案技術架構
-
-- **前端 (client)：** React、私鑰本地存儲與簽章產生
-- **後端 (server)：** Node.js (Express)、signature 驗證、address 資料管理、nonce 防重放
-- **錢包金鑰生成：** secp256k1、Keccak256 地址實作
-- **通訊流程：** 只傳已簽名數據，絕不曝光私鑰
+## 快速開始
+1. 安裝依賴（Client/Server 皆要安裝）
+2. 啟動 Server：`npm run start`  
+3. 啟動 Client：`cd client && npm run dev`
 
 ## 🧑‍💻 學習與實作要點
 
