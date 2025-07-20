@@ -81,5 +81,3 @@ ecdsa-node/
 - `learning-journey.md`：學習大事記與階段小結
 - `bug-records.md`：錯誤與 debug 註記
 - `signature-workflow.md`：簽章驗證流程與案例
-
-你可直接複製、調整此 draft，加強個人細節紀錄，日後專案 demo、求職或自我檢核都極實用！
