@@ -16,6 +16,10 @@
 
 ## 🧑‍💻 學習與實作要點
 
+> This repository demonstrates the core cryptographic workflow of a minimalistic Ethereum-like wallet, including key generation, client-side signing, and stateless server verification. The implementation adopts industry best practices, separating private key management strictly on client-side and employing nonce-based replay protection on the server for optimal security.  
+> 
+> Throughout this project, I deepened my understanding of core blockchain primitives, ECDSA mechanics, and the importance of robust security design in decentralized applications.
+
 ### 1. 環境建置
 - 熟悉 Node/React 專案初始化與多目錄協作
 - 學會 terminal、VSCode tool chain 使用
